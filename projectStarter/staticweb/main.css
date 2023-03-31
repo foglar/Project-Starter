@@ -1,0 +1,23 @@
+/*TODO: MINIFY FILES AND MERGE THEM TOGETHER (JS too)*/
+/* main.css */
+/* base */
+@import './base/reset.css';
+@import './base/typography.css';
+
+/* components */
+@import './components/forms.css';
+
+/* pages */
+@import './pages/home.css';
+
+/* layout */
+@import './layout/navigation.css';
+
+/* utils */
+@import './utilities/animations.css';
+
+/* vendors */
+/*-animations*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+/* -fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&display=swap');

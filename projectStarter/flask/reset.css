@@ -1,0 +1,49 @@
+:root {
+  --fprimaryHeader: "IBM Plex Sans JP", sans-serif;
+  --fsecondaryHeader: "Reem Kufi Fun", sans-serif;
+  --fparagraph: "Lato", italic;
+  --fWeightHeader: 700;
+  --fWeightNormal: 400;
+  --fItalic: italic;
+
+  --primaryColor: #006076;
+  --secondaryColor: #1d5b48;
+  --bearColor: #654d29;
+
+  --black: #1d1d1d;
+  --white: #ffffff;
+
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+html {
+  width: 100%;
+  margin: 0px;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto auto 0;
+  color: var(--black);
+  background-color: #a3cfcd;
+  overflow-x: hidden;
+}
+
+main {
+  width: 80%;
+  height: 100vh;
+
+  font-family: var(--fprimaryHeader);
+
+  vertical-align: middle;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  color: #4b4a54;
+  margin-left: 5px;
+}
